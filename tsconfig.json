@@ -14,7 +14,8 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "jsx": "react"
+    "jsx": "react",
+    "types": ["webpack-env"]
   },
-  "include": ["src/index.tsx", "typings/**/*.d.ts"]
+  "include": ["src/index.tsx"]
 }

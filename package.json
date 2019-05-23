@@ -1,14 +1,13 @@
 {
-  "name": "with-babel",
+  "name": "tsx-live-editor",
   "version": "0.0.1",
-  "description": "with-babel Package",
+  "description": "Live editor for TypeScript+React",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/ecraig12345/tsx-live-editor"
   },
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
-  "sideEffects": false,
   "typings": "lib/index.d.ts",
   "license": "MIT",
   "scripts": {
@@ -22,15 +21,17 @@
     "stack:upgrade": "just upgrade-stack"
   },
   "dependencies": {
+    "@babel/standalone": "^7.4.5",
     "@uifabric/fluent-theme": "^0.16.6",
     "office-ui-fabric-react": "^6.165.0",
     "react": "~16.8.0",
     "react-dom": "~16.8.0"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.0",
-    "@types/react-dom": "~16.8.0",
+    "@types/babel__core": "^7.1.2",
     "@types/react": "~16.8.0",
+    "@types/react-dom": "~16.8.0",
+    "@types/webpack-env": "^1.13.9",
     "just-stack-uifabric": ">=0.9.0"
   },
   "just": {
